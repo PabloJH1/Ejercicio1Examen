@@ -22,7 +22,7 @@ val listaVideojuegos=(1..10).map {
     Videojuego(
         name="Videojuego $it",
         price=40+it,
-        imageUrl="https://loremflickr.com/400/$it/seville?lock=1,"
+        imageUrl="https://loremflickr.com/400/400/seville?lock=$it,"
     )
 }
 
