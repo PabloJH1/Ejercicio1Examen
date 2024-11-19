@@ -11,7 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
-object oListaObjetos{
+object oListaVideojuegos{
     fun getListaVideojuegos(): List<Videojuego> =listaVideojuegos
 }
 

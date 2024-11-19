@@ -17,11 +17,12 @@ import androidx.compose.ui.unit.dp
 import coil.ImageLoader
 import coil.compose.AsyncImage
 import com.PabloJesusHurtadoHidalgo.examenEJ1.listaVideojuegos.Videojuego
-import com.PabloJesusHurtadoHidalgo.examenEJ1.listaVideojuegos.oListaObjetos
+import com.PabloJesusHurtadoHidalgo.examenEJ1.listaVideojuegos.oListaVideojuegos
+
 
 @Composable
 fun ListaScreen(){
-    val listaVideojuegos= oListaObjetos.getListaVideojuegos()
+    val listaVideojuegos= oListaVideojuegos.getListaVideojuegos()
     LazyColumn {
         items(listaVideojuegos){
             videojuego -> VideojuegoItem(videojuego=videojuego)
